@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/whatschat/static/css/main.7db5069c.chunk.css",
+    "main.js": "/whatschat/static/js/main.30f48640.chunk.js",
+    "main.js.map": "/whatschat/static/js/main.30f48640.chunk.js.map",
+    "runtime-main.js": "/whatschat/static/js/runtime-main.c2ab4a91.js",
+    "runtime-main.js.map": "/whatschat/static/js/runtime-main.c2ab4a91.js.map",
+    "static/js/2.dd23807e.chunk.js": "/whatschat/static/js/2.dd23807e.chunk.js",
+    "static/js/2.dd23807e.chunk.js.map": "/whatschat/static/js/2.dd23807e.chunk.js.map",
+    "index.html": "/whatschat/index.html",
+    "precache-manifest.0780f46b4bd1a78989b5de72c3f4bbdc.js": "/whatschat/precache-manifest.0780f46b4bd1a78989b5de72c3f4bbdc.js",
+    "service-worker.js": "/whatschat/service-worker.js",
+    "static/css/main.7db5069c.chunk.css.map": "/whatschat/static/css/main.7db5069c.chunk.css.map",
+    "static/js/2.dd23807e.chunk.js.LICENSE.txt": "/whatschat/static/js/2.dd23807e.chunk.js.LICENSE.txt",
+    "static/media/CompanyImage.png": "/whatschat/static/media/CompanyImage.547b5bfb.png",
+    "static/media/ill.png": "/whatschat/static/media/ill.00d05a7f.png",
+    "static/media/logo.png": "/whatschat/static/media/logo.54638bf7.png",
+    "static/media/secFive.PNG": "/whatschat/static/media/secFive.cd6c72dd.PNG",
+    "static/media/secFour.png": "/whatschat/static/media/secFour.ddb2e799.png",
+    "static/media/secThree.PNG": "/whatschat/static/media/secThree.064cb0f6.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2ab4a91.js",
+    "static/js/2.dd23807e.chunk.js",
+    "static/css/main.7db5069c.chunk.css",
+    "static/js/main.30f48640.chunk.js"
+  ]
+}
