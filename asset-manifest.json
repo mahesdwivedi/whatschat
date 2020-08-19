@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/whatschat/static/css/main.7db5069c.chunk.css",
-    "main.js": "/whatschat/static/js/main.30f48640.chunk.js",
-    "main.js.map": "/whatschat/static/js/main.30f48640.chunk.js.map",
+    "main.js": "/whatschat/static/js/main.9baa0c9e.chunk.js",
+    "main.js.map": "/whatschat/static/js/main.9baa0c9e.chunk.js.map",
     "runtime-main.js": "/whatschat/static/js/runtime-main.c2ab4a91.js",
     "runtime-main.js.map": "/whatschat/static/js/runtime-main.c2ab4a91.js.map",
-    "static/js/2.dd23807e.chunk.js": "/whatschat/static/js/2.dd23807e.chunk.js",
-    "static/js/2.dd23807e.chunk.js.map": "/whatschat/static/js/2.dd23807e.chunk.js.map",
+    "static/js/2.213456c5.chunk.js": "/whatschat/static/js/2.213456c5.chunk.js",
+    "static/js/2.213456c5.chunk.js.map": "/whatschat/static/js/2.213456c5.chunk.js.map",
     "index.html": "/whatschat/index.html",
-    "precache-manifest.0780f46b4bd1a78989b5de72c3f4bbdc.js": "/whatschat/precache-manifest.0780f46b4bd1a78989b5de72c3f4bbdc.js",
+    "precache-manifest.c74ba2b25fad039e6abe5213a72a3656.js": "/whatschat/precache-manifest.c74ba2b25fad039e6abe5213a72a3656.js",
     "service-worker.js": "/whatschat/service-worker.js",
     "static/css/main.7db5069c.chunk.css.map": "/whatschat/static/css/main.7db5069c.chunk.css.map",
-    "static/js/2.dd23807e.chunk.js.LICENSE.txt": "/whatschat/static/js/2.dd23807e.chunk.js.LICENSE.txt",
+    "static/js/2.213456c5.chunk.js.LICENSE.txt": "/whatschat/static/js/2.213456c5.chunk.js.LICENSE.txt",
     "static/media/CompanyImage.png": "/whatschat/static/media/CompanyImage.547b5bfb.png",
     "static/media/ill.png": "/whatschat/static/media/ill.00d05a7f.png",
     "static/media/logo.png": "/whatschat/static/media/logo.54638bf7.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c2ab4a91.js",
-    "static/js/2.dd23807e.chunk.js",
+    "static/js/2.213456c5.chunk.js",
     "static/css/main.7db5069c.chunk.css",
-    "static/js/main.30f48640.chunk.js"
+    "static/js/main.9baa0c9e.chunk.js"
   ]
 }

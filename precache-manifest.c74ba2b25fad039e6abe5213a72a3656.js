@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e185941a5842593ba32e3e6675840d30",
+    "revision": "4a3ae9cf1283830a73eefc96e8f955d4",
     "url": "/whatschat/index.html"
   },
   {
-    "revision": "73115109b90989c687ea",
+    "revision": "83bd92558dba7e8c664d",
     "url": "/whatschat/static/css/main.7db5069c.chunk.css"
   },
   {
-    "revision": "24d73f5ecdf70aa83eab",
-    "url": "/whatschat/static/js/2.dd23807e.chunk.js"
+    "revision": "fdeb2a46decb0cf49c62",
+    "url": "/whatschat/static/js/2.213456c5.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/whatschat/static/js/2.dd23807e.chunk.js.LICENSE.txt"
+    "url": "/whatschat/static/js/2.213456c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73115109b90989c687ea",
-    "url": "/whatschat/static/js/main.30f48640.chunk.js"
+    "revision": "83bd92558dba7e8c664d",
+    "url": "/whatschat/static/js/main.9baa0c9e.chunk.js"
   },
   {
     "revision": "538af6eb94a177529f6a",
