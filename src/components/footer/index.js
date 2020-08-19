@@ -89,10 +89,18 @@ const Footer = () => {
             <img
               style={{ marginBottom: "1rem", paddingRight: "10px" }}
               src={AppStore}
+              height="50px"
+              width="150px"
               alt=""
             ></img>
-            <img style={{ marginBottom: "1rem" }} src={PlayStore} alt=""></img>
-            <Grid container justify="space-around" direction="row">
+            <img
+              style={{ marginBottom: "1rem" }}
+              src={PlayStore}
+              height="45px"
+              width="150px"
+              alt=""
+            ></img>
+            <Grid container justify="space-between" direction="row">
               <img src={Facebook} alt=""></img>
               <img src={Twitter} alt=""></img>
               <img src={LinkedIn} alt=""></img>

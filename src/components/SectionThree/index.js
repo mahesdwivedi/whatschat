@@ -26,6 +26,12 @@ const useStyles = makeStyles((theme) => ({
     color: "gray",
     textAlign: "left",
   },
+  learnMore:{
+    fontSize:"18px",
+    marginTop:"20px",
+    color:"#8965fc",
+    fontFamily: "HelveticaRoundedLTStd-Bd",
+  }
 }));
 
 export default function SectionThree() {
@@ -43,7 +49,7 @@ export default function SectionThree() {
               Enable every team member to view, assign and respond to every
               client, even with multiple WhatsApp numbers!
             </Typography>
-            <Typography>Learn More...</Typography>
+            <Typography className={classes.learnMore}>Learn more...</Typography>
           </Grid>
           <Grid item xs={12} sm={5}>
             <img height="100%" width="100%" src={secThree} alt=""></img>

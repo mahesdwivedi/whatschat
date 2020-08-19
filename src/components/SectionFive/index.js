@@ -26,6 +26,12 @@ const useStyles = makeStyles((theme) => ({
     color: "gray",
     textAlign: "left",
   },
+  learnMore:{
+    fontSize:"18px",
+    marginTop:"20px",
+    color:"#8965fc",
+    fontFamily: "HelveticaRoundedLTStd-Bd",
+  }
 }));
 
 export default function SectionFive() {
@@ -43,7 +49,7 @@ export default function SectionFive() {
               Trigger automated responses to users based on keyword matching
               rules.
             </Typography>
-            <Typography>Learn More...</Typography>
+            <Typography className={classes.learnMore}>Learn more...</Typography>
           </Grid>
           <Grid item xs={12} sm={5}>
             <img height="100%" width="100%" src={secFive} alt=""></img>

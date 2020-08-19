@@ -27,6 +27,12 @@ const useStyles = makeStyles((theme) => ({
     color: "gray",
     textAlign: "left",
   },
+  learnMore:{
+    fontSize:"18px",
+    marginTop:"20px",
+    color:"#8965fc",
+    fontFamily: "HelveticaRoundedLTStd-Bd",
+  }
 }));
 
 export default function SectionFour() {
@@ -47,7 +53,7 @@ export default function SectionFour() {
               Easily manage your subscribers, apply filters and send
               personalized templates to a selected group of audience.
             </Typography>
-            <Typography>Learn More...</Typography>
+            <Typography className={classes.learnMore}>Learn more...</Typography>
           </Grid>
         </Grid>
       </Container>
