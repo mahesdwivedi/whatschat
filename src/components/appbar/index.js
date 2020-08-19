@@ -5,7 +5,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Drawer from "@material-ui/core/Drawer";
-import clsx from "clsx";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { useTheme } from "@material-ui/core/styles";
 import logo from "../../assets/images/logo.png";
@@ -72,7 +71,6 @@ export default function ButtonAppBar() {
       onKeyDown={toggleDrawer(anchor, false)}
       style={{ width: 250 }}
     >
-      
       <Typography className={classes.mobTab}>Why WhatsChat</Typography>
       <Typography className={classes.mobTab}>Pricing</Typography>
       <Typography className={classes.mobTab}>Solutions</Typography>
@@ -112,6 +110,7 @@ export default function ButtonAppBar() {
               height="60px"
               width="60px"
               src={logo}
+              alt=""
             ></img>
           ) : (
             <img
@@ -119,6 +118,7 @@ export default function ButtonAppBar() {
               height="60px"
               width="60px"
               src={logo}
+              alt=""
             ></img>
           )}
 

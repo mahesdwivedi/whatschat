@@ -7,12 +7,11 @@ import Container from "@material-ui/core/Container";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 100,
     flexGrow: 1,
-    paddingBottom:150
+    paddingBottom: 150,
   },
   head: {
     marginTop: 65,
@@ -29,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "HelveticaRoundedLTStd-Bd",
     color: "gray",
     textAlign: "left",
-    paddingBottom:30
+    paddingBottom: 30,
   },
 
   textInput: {
@@ -46,8 +45,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "16px 37px",
     textAlign: "left",
     fontFamily: "HelveticaRoundedLTStd-Bd",
-    marginLeft:-10,
-    
+    marginLeft: -10,
   },
 }));
 
@@ -80,15 +78,15 @@ export default function CenteredGrid() {
               variant="outlined"
             />
             <Button
-        style={{ backgroundColor: "#8965FC" }}
-        color="primary"
-        className={classes.btn}
-      >
-        <Typography variant="body1">Sign Up</Typography>
-      </Button>
+              style={{ backgroundColor: "#8965FC" }}
+              color="primary"
+              className={classes.btn}
+            >
+              <Typography variant="body1">Sign Up</Typography>
+            </Button>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <img height="100%" width="100%" src={ill}></img>
+            <img height="100%" width="100%" src={ill} alt=""></img>
           </Grid>
         </Grid>
       </div>

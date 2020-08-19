@@ -16,20 +16,19 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "bold",
     color: "#808080",
     fontSize: "35px",
-    lineHeight:1.2,
-    marginTop: "65px"
+    lineHeight: 1.2,
+    marginTop: "65px",
   },
-  subHead:{
+  subHead: {
     fontFamily: "HelveticaRoundedLTStd-Bd",
-    marginTop:"20px",
-    color:"#8965fb",
-    fontSize:"18px",
-    marginBottom:"15px"
+    marginTop: "20px",
+    color: "#8965fb",
+    fontSize: "18px",
+    marginBottom: "15px",
   },
-  body:{
-    
-    paddingBottom:"60px",
-  }
+  body: {
+    paddingBottom: "60px",
+  },
 }));
 
 export default function SectionTwo() {
@@ -42,13 +41,13 @@ export default function SectionTwo() {
           <Grid item xs={12} sm={12}>
             <Grid item sm={3}></Grid>
             <Grid item xs={12} sm={6}>
-            <Typography className={classes.head}>
-              Make the best out of the most popular messaging app for your
-              business.
-            </Typography>
-            <Typography className={classes.subHead}>
-              Do more than just chat!
-            </Typography>
+              <Typography className={classes.head}>
+                Make the best out of the most popular messaging app for your
+                business.
+              </Typography>
+              <Typography className={classes.subHead}>
+                Do more than just chat!
+              </Typography>
             </Grid>
             <Grid item sm={3}></Grid>
           </Grid>

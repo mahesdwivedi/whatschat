@@ -37,7 +37,7 @@ export default function SectionFour() {
       <Container>
         <Grid justify="center" container spacing={6}>
           <Grid item xs={12} sm={5}>
-            <img height="100%" width="100%" src={secFour}></img>
+            <img height="100%" width="100%" src={secFour} alt=""></img>
           </Grid>
           <Grid item xs={12} sm={5}>
             <Typography className={classes.head}>

@@ -49,7 +49,7 @@ const Footer = () => {
         >
           <Grid item sm={4}>
             <Box display="flex" flexDirection="row">
-              <img height="60px" width="60px" src={logo}></img>
+              <img height="60px" width="60px" src={logo} alt=""></img>
               <Typography variant="h6" className={classes.brand}>
                 WhatsChat
               </Typography>
@@ -86,12 +86,16 @@ const Footer = () => {
             <Typography className={classes.footerTab}>Developers</Typography>
           </Grid>
           <Grid sm={2} item>
-                <img style={{marginBottom:"1rem", paddingRight:"10px"}} src={AppStore}></img>
-                <img style={{marginBottom:"1rem",}} src={PlayStore}></img>
-                <Grid container justify="space-around" direction="row">
-                  <img src={Facebook}></img>
-                  <img src={Twitter}></img>
-                  <img src={LinkedIn}></img>
+            <img
+              style={{ marginBottom: "1rem", paddingRight: "10px" }}
+              src={AppStore}
+              alt=""
+            ></img>
+            <img style={{ marginBottom: "1rem" }} src={PlayStore} alt=""></img>
+            <Grid container justify="space-around" direction="row">
+              <img src={Facebook} alt=""></img>
+              <img src={Twitter} alt=""></img>
+              <img src={LinkedIn} alt=""></img>
             </Grid>
           </Grid>
         </Grid>

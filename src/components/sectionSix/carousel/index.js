@@ -49,10 +49,10 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "HelveticaRoundedLTStd-Bd",
   },
 
-  quote:{
-      color: "#a999fb",
-      height: "100px"
-  }
+  quote: {
+    color: "#a999fb",
+    height: "100px",
+  },
 }));
 
 const Carousel = () => {
@@ -66,7 +66,7 @@ const Carousel = () => {
       </Grid>
       <Grid container className={classes.root} xs={10} sm={8}>
         <Grid item xs={1} sm={1}>
-          <FormatQuoteIcon classes={classes.quote}/>
+          <FormatQuoteIcon classes={classes.quote} />
         </Grid>
         <Grid item xs={10} sm={10}>
           <div>

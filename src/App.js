@@ -8,7 +8,7 @@ import SectionFour from "./components/sectionFour";
 import SectionFive from "./components/SectionFive";
 import SectionSix from "./components/sectionSix";
 import SectionSeven from "./components/sectionSeven";
-import Footer from "./components/footer"
+import Footer from "./components/footer";
 
 function App() {
   return (

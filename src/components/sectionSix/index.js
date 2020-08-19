@@ -10,10 +10,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: 100,
     flexGrow: 1,
-    backgroundColor:"#f9f9f9",
-    paddingBottom:80
-
-    
+    backgroundColor: "#f9f9f9",
+    paddingBottom: 80,
   },
   head: {
     marginTop: 65,
@@ -22,10 +20,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "bold",
     color: "gray",
     textAlign: "center",
-    
   },
-
-
 
   textInput: {
     borderColor: "#b59efd !important",
@@ -42,8 +37,8 @@ export default function CenteredGrid() {
   const classes = useStyles();
 
   return (
-      <div className={classes.root}>
-          <Container>
+    <div className={classes.root}>
+      <Container>
         <Grid container>
           <Grid item xs={12} sm={12}>
             <Typography className={classes.head}>Big Brands Love Us</Typography>
@@ -51,14 +46,13 @@ export default function CenteredGrid() {
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={12}>
-            <img height="100%" width="100%" src={CompanyImage}></img>
+            <img height="100%" width="100%" src={CompanyImage} alt=""></img>
           </Grid>
         </Grid>
         <Grid container>
           <Carousel />
         </Grid>
-        </Container>
-      </div>
-    
+      </Container>
+    </div>
   );
 }

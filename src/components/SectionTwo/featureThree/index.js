@@ -15,15 +15,13 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "bold",
     color: "gray",
     marginTop: "25px",
-    lineHeight:1.2,
-
+    lineHeight: 1.2,
   },
   body: {
     fontSize: "17px",
     fontFamily: "HelveticaRoundedLTStd-Bd",
     color: "gray",
-    marginTop: "25px"
-
+    marginTop: "25px",
   },
 }));
 
@@ -34,11 +32,11 @@ function FeatureOne() {
     <div align="center">
       <QuestionAnswerIcon className={classes.icon} />
       <Typography className={classes.head}>
-      Engage with Customers on WhatsApp.
+        Engage with Customers on WhatsApp.
       </Typography>
       <Typography className={classes.body}>
-      WhatsApp Business API is in beta preview.
-       You can request the access here.
+        WhatsApp Business API is in beta preview. You can request the access
+        here.
       </Typography>
     </div>
   );
